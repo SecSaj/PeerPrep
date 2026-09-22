@@ -17,12 +17,14 @@ PeerPrep is a basic Java console application that allows VT students to create a
 
 ## How to Run
 
-1. Open the `PeerPrep` project in Eclipse.
-2. Make sure all Java files are inside the `peerprep` package.
-3. Open `PeerPrepApp.java`.
-4. Right-click `PeerPrepApp.java`.
-5. Select **Run As → Java Application**.
-6. The program will run in the Eclipse Console.
+1. Download the repo as a ZIP
+2. Extract the ZIP file
+3. Open the `PeerPrep` project in Eclipse.
+4. Make sure all Java files are inside the `peerprep` package.
+5. Open `PeerPrepApp.java`.
+6. Right-click `PeerPrepApp.java`.
+7. Select **Run As → Java Application**.
+8. The program will run in the Eclipse Console.
 
 ## How to Run the JUnit Tests
 
