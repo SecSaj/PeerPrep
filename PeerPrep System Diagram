@@ -1,0 +1,53 @@
+                         +------------------+
+                         |   PeerPrepApp    |
+                         |     main()       |
+                         +--------+---------+
+                                  |
+                                  v
+                         +------------------+
+                         |    ConsoleUI     |
+                         | menus / input    |
+                         +---+----------+---+
+                             |          |
+             +---------------+          +----------------+
+             |                                           |
+             v                                           v
+     +---------------+                          +-------------------+
+     |  AuthService  |                          | StudyGroupService |
+     | registration  |                          | create / list /   |
+     | authentication|                          | select / join     |
+     +-------+-------+                          +---------+---------+
+             |                                            |
+             v                                            v
+       +-----------+                              +---------------+
+       |  Student  |                              |    Course     |
+       | username  |                              | course code   |
+       | password  |                              | study groups  |
+       +-----------+                              +-------+-------+
+                                                          |
+                                                          v
+                                                 +----------------+
+                                                 |   StudyGroup   |
+                                                 | name           |
+                                                 | topic          |
+                                                 | comm. link     |
+                                                 | creator        |
+                                                 | members        |
+                                                 +-------+--------+
+                                                         |
+                                                         v
+                                                    +---------+
+                                                    | Student |
+                                                    | members |
+                                                    +---------+
+
+
+                  +------------------+
+                  |  CourseCatalog   |
+                  | valid VT courses |
+                  +--------+---------+
+                           |
+                           v
+                      +---------+
+                      | Course  |
+                      +---------+
